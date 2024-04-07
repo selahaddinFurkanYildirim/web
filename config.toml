@@ -21,7 +21,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "Furkan'ın günlüğü" # Logo subtitle
+  subtitle = "C++ ile temel algoritmalar." # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

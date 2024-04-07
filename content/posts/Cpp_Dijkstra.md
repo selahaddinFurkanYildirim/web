@@ -10,7 +10,7 @@ categories:
   - "Algoritmalar"
 ---
 
-C++ ile dijikstra akgoritması parça parça anlatım ve son hali.
+C++ ile dijikstra algoritması parça parça anlatım ve son hali.
 <!--more-->
 
 ## İnclude satırları

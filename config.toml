@@ -12,7 +12,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   avatar = "img/avatar.png"
 
 [Params]
-  description = "Furkan'ın günlüğü" # Description of your site
+  description = "Kruskal Dijkstra Graf ve benzeri konularda algoritmalar ve bu algoritmaların koda geçirilişi için yardım" # Description of your site
   opengraph = true
   twitter_cards = true
   readmore = true # Show "Read more" button in list if true
@@ -21,7 +21,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "C++ ile temel algoritmalar." # Logo subtitle
+  subtitle = "Furkan'ın Günlüğü" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

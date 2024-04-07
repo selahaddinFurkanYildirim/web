@@ -53,7 +53,7 @@ Kullanıcıdan okuma yapılması ve verilerin kaydedilmesi
 ## Dijkstra Fonksyonu
 İngilizce Anlatım:[Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf#page=136)
 
-Türkçe Anlatım:[Competitive Programmer’s Handbook](/resources/_gen/books/cph_turkce.pdf)
+Türkçe Anlatım:[Rekabetçi Programcının El Kitabı](/resources/cph_turkce.pdf#page=146)
 
 Sayfanın ortasında anlatmaya başlıyor. 
 ```c++

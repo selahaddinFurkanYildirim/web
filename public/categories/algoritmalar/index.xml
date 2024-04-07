@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algoritmalar on Anayol</title>
+    <link>/categories/algoritmalar/</link>
+    <description>Recent content in Algoritmalar on Anayol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/categories/algoritmalar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; Dijkstra</title>
+      <link>/posts/c&#43;&#43;-dijkstra/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/c&#43;&#43;-dijkstra/</guid>
+      <description>&lt;p&gt;C++ ile dijikstra akgoritması parça parça anlatım ve son hali.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

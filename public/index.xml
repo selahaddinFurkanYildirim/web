@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anayol</title>
+    <link>/</link>
+    <description>Recent content on Anayol</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ben</title>
+      <link>/me/</link>
+      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/me/</guid>
+      <description>Ben furkan&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Hakkında</title>
+      <link>/about/</link>
+      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This website builds with Hugo static site generator and Mainroad theme.
+About Mainroad Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.
+Main features:
+Responsive design Main &amp;amp; secondary menus Widgetized sidebar Translations. Over 15 languages and counting Configurable theme settings (sidebar position, author box, post navigation, highlight color) via config.toml Hugo internal templates (Open Graph, Schema, Twitter Cards, Disqus, Google Analytics) Wide cross-browser compatibility Desktop: IE11+, Chrome, Firefox, Safari Mobile: Android browser (on Android 4.</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; Dijkstra</title>
+      <link>/posts/c&#43;&#43;-dijkstra/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/c&#43;&#43;-dijkstra/</guid>
+      <description>&lt;p&gt;C++ ile dijikstra akgoritması parça parça anlatım ve son hali.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

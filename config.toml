@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Furkan"
-  bio = "Furkan bir bilgisayar olimpiyatçısı ve Cağaloğlu Anadolu lisesinde eğitimini sürdürüyor."
+  bio = "Furkan bir bilgisayar olimpiyatçısı ve Cağaloğlu Anadolu Lisesinde eğitimini sürdürüyor."
   avatar = "img/avatar.png"
 
 [Params]

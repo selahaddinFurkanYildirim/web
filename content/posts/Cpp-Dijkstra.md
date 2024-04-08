@@ -1,5 +1,5 @@
 ---
-title: # C++ Dijkstra
+title: C++ Dijkstra
 date: 2014-04-02
 tags:
   - "C++"

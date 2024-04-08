@@ -1,5 +1,5 @@
 ---
-title: # C++ Kruskal
+title: C++ Kruskal
 date: 2014-04-02
 tags:
   - "C++"

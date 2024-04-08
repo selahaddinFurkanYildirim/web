@@ -10,14 +10,17 @@ categories:
   - "Algoritmalar"
 ---
 
-C++ ile kruskal algoritması parça parça anlatım ve son hali.
-<!--more-->
+# Kruskal
 
-## Kruskal Nedir
+C++ ile kruskal algoritması parça parça anlatım ve son hali.
 
 İngilizce Anlatım:[Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf#page=152)
 
 Türkçe Anlatım:[Rekabetçi Programcının El Kitabı](/cph_turkce.pdf#page=162)
+
+<!--more-->
+
+## Kruskal Nedir
 
 Kruskal bir MST([Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)) algoritmasının temsilcisidir.
 

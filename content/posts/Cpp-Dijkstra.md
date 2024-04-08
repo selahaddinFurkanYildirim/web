@@ -10,7 +10,13 @@ categories:
   - "Algoritmalar"
 ---
 
+# Dijikstra
+
 C++ ile dijikstra algoritması parça parça anlatım ve son hali.
+
+İngilizce Anlatım:[Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf#page=136)
+
+Türkçe Anlatım:[Rekabetçi Programcının El Kitabı](/cph_turkce.pdf#page=146)
 <!--more-->
 
 ## İnclude satırları
@@ -51,11 +57,7 @@ Kullanıcıdan okuma yapılması ve verilerin kaydedilmesi
 	}
 ```
 ## Dijkstra Fonksyonu
-İngilizce Anlatım:[Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf#page=136)
 
-Türkçe Anlatım:[Rekabetçi Programcının El Kitabı](/cph_turkce.pdf#page=146)
-
-Sayfanın ortasında anlatmaya başlıyor. 
 ```c++
 	void Dijkstra(int x){
 	    vector<bool> vis(adj.size());

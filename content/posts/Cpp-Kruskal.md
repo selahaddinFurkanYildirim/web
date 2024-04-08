@@ -10,7 +10,7 @@ categories:
   - "Algoritmalar"
 ---
 
-C++ ile kruskal algoritması parça parça anlatım ve son hali.
+# C++ ile kruskal algoritması parça parça anlatım ve son hali.
 <!--more-->
 
 ## Kruskal Nedir

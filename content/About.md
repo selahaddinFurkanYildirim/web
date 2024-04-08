@@ -9,7 +9,7 @@ menu: main
 This website builds with [Hugo](https://gohugo.io/) static site generator and
 [Mainroad](https://github.com/vimux/mainroad) theme.
 
-## About Mainroad
+# About Mainroad
 
 Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.
 

@@ -1,5 +1,5 @@
 ---
-title: C++ Dijkstra
+title: # C++ Dijkstra
 date: 2014-04-02
 tags:
   - "C++"
@@ -10,7 +10,7 @@ categories:
   - "Algoritmalar"
 ---
 
-# C++ ile dijikstra algoritması parça parça anlatım ve son hali.
+C++ ile dijikstra algoritması parça parça anlatım ve son hali.
 <!--more-->
 
 ## İnclude satırları

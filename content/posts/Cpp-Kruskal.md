@@ -1,5 +1,5 @@
 ---
-title: C++ Kruskal
+title: # C++ Kruskal
 date: 2014-04-02
 tags:
   - "C++"
@@ -10,7 +10,7 @@ categories:
   - "Algoritmalar"
 ---
 
-# C++ ile kruskal algoritması parça parça anlatım ve son hali.
+C++ ile kruskal algoritması parça parça anlatım ve son hali.
 <!--more-->
 
 ## Kruskal Nedir

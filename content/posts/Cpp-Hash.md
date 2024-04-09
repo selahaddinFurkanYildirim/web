@@ -1,5 +1,5 @@
 ---
-title: "Cpp Hash"
+title: "C++ Hash"
 date: 2024-04-09T10:40:00+03:00
 draft: true
 ---

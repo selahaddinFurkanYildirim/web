@@ -14,7 +14,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   avatar = "img/avatar.png"
 
 [Params]
-  description = "Kruskal Dijkstra Graf ve benzeri konularda algoritmalar ve bu algoritmaların koda geçirilişi için yardım" # Description of your site
+  description = "Kruskal Dijkstra ve benzeri konularda algoritmalar ve bu algoritmaların c++ dilinde koda geçirilişi için yardım" # Description of your site
   opengraph = true
   twitter_cards = true
   readmore = true # Show "Read more" button in list if true

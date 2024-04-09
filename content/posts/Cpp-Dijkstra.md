@@ -125,7 +125,6 @@ Kullanıcıdan okuma yapılması ve verilerin kaydedilmesi
 	int main(){
 	    cin>>n>>m;
 	    adj.resize(n+1);
-	    edge.resize(m);
 	    FOR(i,0,m){
 	        int a,b,w;
 	        cin>>a>>b>>w;

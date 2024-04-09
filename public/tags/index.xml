@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Anayol</title>
+    <title>Tags on Anayol - Algoritma</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Anayol</description>
+    <description>Recent content in Tags on Anayol - Algoritma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 10:40:00 +0300</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;</title>
       <link>/tags/c&#43;&#43;/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Apr 2024 10:40:00 +0300</pubDate>
       
       <guid>/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hash</title>
+      <link>/tags/hash/</link>
+      <pubDate>Tue, 09 Apr 2024 10:40:00 +0300</pubDate>
+      
+      <guid>/tags/hash/</guid>
       <description></description>
     </item>
     
@@ -31,6 +41,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/tags/graf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kruskal</title>
+      <link>/tags/kruskal/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kruskal/</guid>
       <description></description>
     </item>
     

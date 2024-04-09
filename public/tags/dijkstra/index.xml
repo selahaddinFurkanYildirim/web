@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dijkstra on Anayol</title>
+    <title>dijkstra on Anayol - Algoritma</title>
     <link>/tags/dijkstra/</link>
-    <description>Recent content in dijkstra on Anayol</description>
+    <description>Recent content in dijkstra on Anayol - Algoritma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dijkstra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43; Dijkstra</title>
-      <link>/posts/c&#43;&#43;-dijkstra/</link>
+      <link>/posts/cpp-dijkstra/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/posts/c&#43;&#43;-dijkstra/</guid>
-      <description>&lt;p&gt;C++ ile dijikstra akgoritması parça parça anlatım ve son hali.&lt;/p&gt;</description>
+      <guid>/posts/cpp-dijkstra/</guid>
+      <description>&lt;h2 id=&#34;dijikstra&#34;&gt;Dijikstra&lt;/h2&gt;
+&lt;p&gt;C++ ile dijikstra algoritması parça parça anlatım ve son hali.&lt;/p&gt;
+&lt;p&gt;İngilizce Anlatım:&lt;a href=&#34;https://cses.fi/book/book.pdf#page=136&#34;&gt;Competitive Programmer’s Handbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Türkçe Anlatım:&lt;a href=&#34;/cph_turkce.pdf#page=146&#34;&gt;Rekabetçi Programcının El Kitabı&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

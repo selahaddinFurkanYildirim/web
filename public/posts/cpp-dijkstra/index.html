@@ -3,19 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>C&#43;&#43; Dijkstra - Anayol</title>
+	<title>C&#43;&#43; Dijkstra - Anayol - Algoritma</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="C&#43;&#43; Dijkstra" />
-<meta property="og:description" content="C&#43;&#43; ile dijikstra akgoritması parça parça anlatım ve son hali." />
+<meta property="og:description" content="Dijikstra
+C&#43;&#43; ile dijikstra algoritması parça parça anlatım ve son hali.
+İngilizce Anlatım:Competitive Programmer’s Handbook
+Türkçe Anlatım:Rekabetçi Programcının El Kitabı" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/c&#43;&#43;-dijkstra/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="/posts/cpp-dijkstra/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
 
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="C&#43;&#43; Dijkstra"/>
-<meta name="twitter:description" content="C&#43;&#43; ile dijikstra akgoritması parça parça anlatım ve son hali."/>
+<meta name="twitter:description" content="Dijikstra
+C&#43;&#43; ile dijikstra algoritması parça parça anlatım ve son hali.
+İngilizce Anlatım:Competitive Programmer’s Handbook
+Türkçe Anlatım:Rekabetçi Programcının El Kitabı"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -34,10 +40,10 @@
 	<div class="container header__container">
 		
 	<div class="logo">
-		<a class="logo__link" href="/" title="Anayol" rel="home">
+		<a class="logo__link" href="/" title="Anayol - Algoritma" rel="home">
 			<div class="logo__item logo__text">
-					<div class="logo__title">Anayol</div>
-					<div class="logo__tagline">Furkan&#39;ın günlüğü</div>
+					<div class="logo__title">Anayol - Algoritma</div>
+					<div class="logo__tagline">Furkan&#39;ın Günlüğü</div>
 				</div>
 		</a>
 	</div>
@@ -47,13 +53,6 @@
 		<span class="menu__btn-title" tabindex="-1">Menu</span>
 	</button>
 	<ul class="menu__list">
-		<li class="menu__item">
-			<a class="menu__link" href="/me/">
-				
-				<span class="menu__text">Ben</span>
-				
-			</a>
-		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/about/">
 				
@@ -80,7 +79,10 @@
 </div></div>
 		</header>
 		<div class="content post__content clearfix">
-			<p>C++ ile dijikstra akgoritması parça parça anlatım ve son hali.</p>
+			<h2 id="dijikstra">Dijikstra</h2>
+<p>C++ ile dijikstra algoritması parça parça anlatım ve son hali.</p>
+<p>İngilizce Anlatım:<a href="https://cses.fi/book/book.pdf#page=136">Competitive Programmer’s Handbook</a></p>
+<p>Türkçe Anlatım:<a href="/cph_turkce.pdf#page=146">Rekabetçi Programcının El Kitabı</a></p>
 <h2 id="include-satırları">İnclude satırları</h2>
 <p>İnclude ve define satırları.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>	<span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
@@ -111,9 +113,6 @@
 </span></span><span style="display:flex;"><span>	    <span style="color:#66d9ef">return</span>;
 </span></span><span style="display:flex;"><span>	}
 </span></span></code></pre></div><h2 id="dijkstra-fonksyonu">Dijkstra Fonksyonu</h2>
-<p>İngilizce Anlatım:<a href="https://cses.fi/book/book.pdf#page=136">Competitive Programmer’s Handbook</a></p>
-<p>Türkçe Anlatım:<a href="/resources/cph_turkce.pdf#page=146">Rekabetçi Programcının El Kitabı</a></p>
-<p>Sayfanın ortasında anlatmaya başlıyor.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>	<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">Dijkstra</span>(<span style="color:#66d9ef">int</span> x){
 </span></span><span style="display:flex;"><span>	    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span> vis(adj.size());
 </span></span><span style="display:flex;"><span>	    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> dis(adj.size(),INT_MAX);
@@ -177,7 +176,6 @@
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
 </span></span><span style="display:flex;"><span>	    cin<span style="color:#f92672">&gt;&gt;</span>n<span style="color:#f92672">&gt;&gt;</span>m;
 </span></span><span style="display:flex;"><span>	    adj.resize(n<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>	    edge.resize(m);
 </span></span><span style="display:flex;"><span>	    FOR(i,<span style="color:#ae81ff">0</span>,m){
 </span></span><span style="display:flex;"><span>	        <span style="color:#66d9ef">int</span> a,b,w;
 </span></span><span style="display:flex;"><span>	        cin<span style="color:#f92672">&gt;&gt;</span>a<span style="color:#f92672">&gt;&gt;</span>b<span style="color:#f92672">&gt;&gt;</span>w;
@@ -217,10 +215,24 @@
 		<span class="authorbox__name">About Furkan</span>
 	</div>
 	<div class="authorbox__description">
-		Furkan bir bilgisayar olimpiyatçısı ve Cağaloğlu Anadolu lisesinde eğitimini sürdürüyor.
+		Furkan bir bilgisayar olimpiyatçısı ve Cağaloğlu Anadolu Lisesinde eğitimini sürdürüyor.
 	</div>
 </div>
 
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/cpp-kruskal/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">C&#43;&#43; Kruskal</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/cpp-hash/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">C&#43;&#43; Hash</p>
+		</a>
+	</div>
+</nav>
 
 
 			</div>
@@ -235,7 +247,9 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/posts/c&#43;&#43;-dijkstra/">C&#43;&#43; Dijkstra</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/cpp-hash/">C&#43;&#43; Hash</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/cpp-dijkstra/">C&#43;&#43; Dijkstra</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/cpp-kruskal/">C&#43;&#43; Kruskal</a></li>
 		</ul>
 	</div>
 </div>
@@ -253,9 +267,11 @@
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/c&#43;&#43;/" title="C&#43;&#43;">C&#43;&#43; (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/c&#43;&#43;/" title="C&#43;&#43;">C&#43;&#43; (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dijkstra/" title="dijkstra">dijkstra (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/graf/" title="Graf">Graf (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/graf/" title="Graf">Graf (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hash/" title="Hash">Hash (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/kruskal/" title="Kruskal">Kruskal (1)</a>
 	</div>
 </div>
 </aside>
@@ -264,7 +280,7 @@
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2024 Anayol.
+			&copy; 2024 Anayol - Algoritma.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

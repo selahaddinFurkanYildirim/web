@@ -1,9 +1,13 @@
 ---
 title: "C++ Hash"
 date: 2024-04-09T10:40:00+03:00
-draft: true
+tags:
+  - "C++"
+  - "Hash"
+categories:
+  - "Kodlama"
+  - "Algoritmalar"
 ---
-
 ## Hash
 
 C++ ile Hash algoritması parça parça anlatım ve son hali.
